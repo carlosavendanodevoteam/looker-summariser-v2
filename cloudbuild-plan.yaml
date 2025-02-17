@@ -7,6 +7,7 @@ steps:
       - |
         cd terraform
         echo ""
+        echo "region=${LOCATION}"
         echo "*************** TERRAFORM ******************"
         echo "*************************************************"
         terraform init -no-color
