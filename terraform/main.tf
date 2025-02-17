@@ -6,7 +6,7 @@ data "google_project" "project" {}
 
 terraform {
   backend "gcs" {
-    bucket = "summariser-bucket-v2"
+    bucket = "summariser-bucket-v2" 
   }
 }
 
